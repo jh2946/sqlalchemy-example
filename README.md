@@ -21,7 +21,7 @@ Ex-0-Example
 
 - `README.md` contains the tutorial content. It's recommended to read this on GitHub on your browser.
 
-There's a `Console-Workspace` directory which already contains boilerplate code, and is meant for your tinkering.
+There's a `Console-Workspace` directory with a similar structure which already contains boilerplate code, and is meant for your tinkering.
 
 ## Setup
 
