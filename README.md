@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 You will have to run `venv/Scripts/activate` in this root directory every time you open this folder.
 
-If you want to avoid activating `venv` every time you open this repository, do `Ctrl+Shift+P`, type "Preferences: Open User Settings (JSON)", and paste the following inside the outer braces at the start:
+If you want to avoid activating `venv` every time you open this repository, do `Ctrl+Shift+P`, type "Preferences: Open User Settings (JSON)", and paste the following inside the outer braces at the start (must Ctrl+S after this):
 
 ```json
     "python.terminal.activateEnvInCurrentTerminal": true,
@@ -70,6 +70,7 @@ Run `main.py` for each chapter.
 
 ```
 git clone https://github.com/jh2946/sqlalchemy-example
+cd sqlalchemy-example
 pip install -r requirements.txt
 ```
 
