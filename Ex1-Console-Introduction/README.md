@@ -1,8 +1,4 @@
-# Example 1
-
-Relational databases store data as tables instead of objects. A `Person` table, for example, stores each person as a row. Each column of the row describes one thing about the person (for example, their name, their email). Very importantly, one row must represent one real-life object or relationship. It can be a person and contain their name and email. It can be a purchase and contain the customer ID and the total price. It can even be a parent-child relationship and contain the NRICs of the parent and the child. In the industry, tables are known for their data integrity and removal of redundancy. For those doing the application project, this might appeal to you: tables reduce tasks such as "List the emails of all employees in the logistics department" to a single-line query. Without tables, you would have to go to the dictionary of employees (which may be hidden away in Sh\*lve 🤮 or whatever), write a for loop and check if each employee's department is "logistics". (By the way, SQLite is a relational database, while Sh\*lve 🤮 is a key-value database.)
-
-Flask-SQLAlchemy allows us to view tables as classes and objects. Each Python class is one table, each Python object is one row, and each class attribute is one column. It's a fairly elegant, intuitive mapping to whatever we've been taught so far about Python classes and objects.
+# Chapter 1
 
 In `app/models.py` you'll find:
 
